@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfólio de [Seu Nome], desenvolvedor web">
+    <title>Portfólio de [Seu Nome]</title>
+    <!-- Adicionando o link para o Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        .skills, .projects {
+            margin-top: 20px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: #fff;
+        }
+        /* Estilo para a imagem quadrada no Sobre Mim */
+        .sobre-mim img {
+            width: 150px; /* Largura fixa */
+            height: 150px; /* Altura fixa */
+            object-fit: cover; /* Corta a imagem para cobrir o espaço sem distorcer */
+            margin-right: 20px;
+        }
+        .sobre-mim {
+            display: flex;
+            align-items: center;
+        }
+        .project-img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Cabeçalho -->
+<header>
+    <h1>Olá, sou Débora Berg</h1>
+    <p>Desenvolvedor Web</p>
+</header>
+
+<!-- Seção Sobre Mim -->
+<section class="container mt-5 sobre-mim">
+    <h2>Sobre Mim</h2>
+    <div>
+        <img src="debora.jpg" alt="Foto de [Seu Nome]">
+    </div>
+    <div>
+        <p>Sou um desenvolvedor web apaixonado por criar soluções inovadoras e experiências incríveis na web. Tenho experiência em várias tecnologias e estou sempre buscando aprender mais.</p>
+    </div>
+</section>
+
+<!-- Seção Habilidades -->
+<section class="container skills mt-5">
+    <h2>Habilidades</h2>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">HTML & CSS</h5>
+                    <p class="card-text">Construção de páginas web responsivas e atraentes.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">JavaScript</h5>
+                    <p class="card-text">Criação de interatividade e dinamismo nas páginas web.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">React</h5>
+                    <p class="card-text">Desenvolvimento de interfaces modernas e reutilizáveis.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Seção Projetos -->
+<section class="container projects mt-5">
+    <h2>Projetos</h2>
+    <div class="row">
+        <!-- Projeto 1 -->
+        <div class="col-md-4">
+            <div class="card">
+                <img src="https://via.placeholder.com/400x200" class="project-img" alt="Projeto 1">
+                <div class="card-body">
+                    <h5 class="card-title">Projeto 1</h5>
+                    <p class="card-text">Descrição do projeto 1. Uma breve explicação do que foi feito e as tecnologias utilizadas.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Projeto 2 -->
+        <div class="col-md-4">
+            <div class="card">
+                <img src="https://via.placeholder.com/400x200" class="project-img" alt="Projeto 2">
+                <div class="card-body">
+                    <h5 class="card-title">Projeto 2</h5>
+                    <p class="card-text">Descrição do projeto 2. Uma breve explicação do que foi feito e as tecnologias utilizadas.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Projeto 3 -->
+        <div class="col-md-4">
+            <div class="card">
+                <img src="https://via.placeholder.com/400x200" class="project-img" alt="Projeto 3">
+                <div class="card-body">
+                    <h5 class="card-title">Projeto 3</h5>
+                    <p class="card-text">Descrição do projeto 3. Uma breve explicação do que foi feito e as tecnologias utilizadas.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Seção Contato -->
+<section class="container contact mt-5">
+    <h2>Contato</h2>
+    <form action="mailto:seuemail@dominio.com" method="post" enctype="text/plain">
+        <div class="mb-3">
+            <input type="text" class="form-control" name="name" placeholder="Seu Nome" required>
+        </div>
+        <div class="mb-3">
+            <input type="email" class="form-control" name="email" placeholder="Seu Email" required>
+        </div>
+        <div class="mb-3">
+            <textarea class="form-control" name="message" placeholder="Sua Mensagem" rows="4" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-dark">Enviar Mensagem</button>
+    </form>
+</section>
+
+<!-- Rodapé -->
+<footer>
+    <p>&copy; 2025 [Seu Nome]. Todos os direitos reservados.</p>
+</footer>
+
+<!-- Adicionando o script do Bootstrap -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
